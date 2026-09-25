@@ -27,7 +27,7 @@ console.log("Данные пользователя:", person);
 // ==========================================
 const car = {
   brand: "Honda",
-  model: "stepwgn",
+  model: "stepwagn",
   year: 2020,
   color: "серебристый",
   transmission: "автомат",
