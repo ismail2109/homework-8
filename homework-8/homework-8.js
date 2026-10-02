@@ -27,11 +27,12 @@ console.log("Данные пользователя:", person);
 // ==========================================
 const car = {
   brand: "Honda",
-  model: "stepwgn",
+  model: "stepwagn",
   year: 2020,
   color: "серебристый",
   transmission: "автомат",
-  owner: person, // ссылка на объект из задания 3
+  owner: person, 
+  // ссылка на объект из задания 3
   note: "Автомобиль используется для поездок на работу и в отпуск"
 };
 
@@ -52,7 +53,7 @@ console.log('Автомобиль после проверки maxSpeed:', car);
 // ==========================================
 // ЗАДАНИЕ 6: Функция для вывода значения свойства объекта
 // ==========================================
-function printProperty(obj, propertyName) {
+function printObjectProperty(obj, propertyName) {
   console.log(obj[propertyName]);
 }
 
@@ -88,7 +89,7 @@ const books = [
     genre: 'антиутопия'
   },
   {
-    title: 'Мастер и Маргарита',
+    title: 'Мистер и Маргарита',
     author: 'Михаил Булгаков',
     year: 1967,
     coverColor: 'бордовый',
